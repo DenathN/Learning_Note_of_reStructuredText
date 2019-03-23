@@ -1,10 +1,8 @@
-this is a note to test the restructuredtext
+reStructuredText
 ==========
 note to test reStructuredText
 ----------
 
-
-* 一级标题是这样写吗
 
 一曲相思
 ::
