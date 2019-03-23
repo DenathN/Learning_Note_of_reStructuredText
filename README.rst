@@ -1,6 +1,6 @@
 reStructuredText学习笔记
 ==========
-note to test reStructuredText
+如果有副标题的话，可以这么写
 ----------
 
 
