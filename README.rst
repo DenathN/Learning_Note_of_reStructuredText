@@ -48,7 +48,41 @@ this is \ **one**\  word.
 
 
 
-.. image:: /https://avatars2.githubusercontent.com/u/40689539?s=400&u=22ad43459c953bdd0a873b072231afdb82ca2881&v=4/to/image.jpg
+.. image:: /https://avatars2.githubusercontent.com/u/40689539?s=400&u=22ad43459c953bdd0a873b072231afdb82ca2881&v=4
+
+图片
+
+.. image:: /path/to/image.jpg
+
+指定链接
+
+A sentence with links to `Wikipedia`_ and the `Linux kernel archive`_.
+
+.. _Wikipedia: https://www.wikipedia.org/
+.. _Linux kernel archive: https://www.kernel.org/
+
+匿名链接
+
+Another sentence with an `anonymous link to the Python website`__.
+
+__ https://www.python.org/
+
+N.B.: 指定链接和匿名链接用重字符(`)括起来，而不是用引号(')括起来。
+
+文字块
+
+::
+
+  some literal text
+
+This may also be used inline at the end of a paragraph, like so::
+
+  some more literal text
+
+.. code:: python
+
+   print("A literal block directive explicitly marked as python code")
+
 
 
 
