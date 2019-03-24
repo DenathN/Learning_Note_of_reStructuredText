@@ -4,6 +4,50 @@ reStructuredText学习笔记
 ----------
 
 
+斜体:
+
+*这里是斜体* 
+
+双星号: **text** 重点强调 (加粗)
+
+反引号: ``text`` 代码样式
+
+反转义符：\
+
+this is \ **one**\  word.
+
+
+
+- A bullet list item
+- Second item
+
+  - A sub item
+
+- Spacing between items creates separate lists
+
+- Third item
+
+1) An enumerated list item
+
+2) Second item
+
+   a) Sub item that goes on at length and thus needs
+      to be wrapped. Note the indentation that must
+      match the beginning of the text, not the 
+      enumerator.
+
+      i) List items can even include
+
+         paragraph breaks.
+
+3) Third item
+
+#) Another enumerated list item
+
+#) Second item
+
+
+
 琵琶行
 ::
     浔阳江头夜送客，枫叶荻花秋瑟瑟
