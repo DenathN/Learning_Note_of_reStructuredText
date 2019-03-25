@@ -17,9 +17,13 @@ reStructuredText学习笔记
 
 行内样式（行内元素、内联元素、inline）
     斜体:*这里是斜体* 
+
     双星号: **这里是加粗** 重点强调 (加粗)
+
     反引号: ``这里是行内引用、行内代码块``
+
     反转义符：\          this is \ **one**\  word.
+
     链接：
 
         独立链接：
@@ -34,7 +38,7 @@ reStructuredText学习笔记
             .. _Ubuntu:  http://www.ubuntu.org.cn/
 
         如果想在命名链接后面继续写文本，可以加个转义符，然后接文本
-
+            例如：
             Ubuntu_\奥术大师多
 
             .. _Ubuntu:  http://www.ubuntu.org.cn/
