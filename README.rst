@@ -56,7 +56,10 @@ reStructuredText学习笔记
     当然，这些限制在未来版本可能会被改善
 
 
+A sentence with links to `Wikipedia`_ and the `Linux kernel archive`_.
 
+.. _Wikipedia: https://www.wikipedia.org/
+.. _Linux kernel archive: https://www.kernel.org/
 
 
 
