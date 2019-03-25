@@ -43,6 +43,12 @@ reStructuredText学习笔记
 
             .. _DenathN的GitHub主页:  https://github.com/DenathN
 
+        指定链接
+            可以点击后面的链接跳转到我的页面`DenathN的GitHub主页`_和官方`GitHub主页`_
+            
+        .. _DenathN的GitHub主页: https://github.com/DenathN
+        .. _GitHub主页: https://github.com
+
 内联标记需要注意的地方：
     当想要表达的符号即是内联标记的时候，为了防止混淆，可以使用转义符号：转义符号：反斜杠      this is \ **one**\  word.
     内联标记不能相互嵌套：**比如粗体中尝试嵌套*我想把这句话变成斜体*这样是不会嵌套斜体的**
@@ -96,20 +102,7 @@ reStructuredText学习笔记
 
 .. image:: /path/to/image.jpg
 
-指定链接
 
-A sentence with links to `Wikipedia`_ and the `Linux kernel archive`_.
-
-.. _Wikipedia: https://www.wikipedia.org/
-.. _Linux kernel archive: https://www.kernel.org/
-
-匿名链接
-
-Another sentence with an `anonymous link to the Python website`__.
-
-__ https://www.python.org/
-
-N.B.: 指定链接和匿名链接用重字符(`)括起来，而不是用引号(')括起来。
 
 文字块
 
