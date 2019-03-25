@@ -15,12 +15,12 @@ reStructuredText学习笔记
 那么五级标题呢
 ---------------
 
-行内样式（行内元素、内联元素、inline）
-    斜体:*这里是斜体* 
+内联标记（行内样式、行内元素、内联元素、inline）
+    斜体:*单星号包围的是斜体* 
 
-    双星号: **这里是加粗** 重点强调 (加粗)
+    粗体: **双星号包围的是粗体**
 
-    反引号: ``这里是行内引用、行内代码块``
+    行内引用/行内代码块: ``这里是行内引用、行内代码块``
 
     反转义符：\          this is \ **one**\  word.
 
@@ -29,49 +29,64 @@ reStructuredText学习笔记
         独立链接：
             自动将网址转换为链接
             例如：
-            http://www.ubuntu.org.cn/
+            https://github.com/DenathN
             会自动将url文本转换为带有下划线的网页链接
 
         命名链接：
-            Ubuntu_
+            DenathN的GitHub主页_
 
-            .. _Ubuntu:  http://www.ubuntu.org.cn/
+            .. _DenathN的GitHub主页:https://github.com/DenathN
 
         如果想在命名链接后面继续写文本，可以加个转义符，然后接文本
             例如：
-            Ubuntu_\奥术大师多
+            DenathN的GitHub主页_\此处为继续写的文本
 
-            .. _Ubuntu:  http://www.ubuntu.org.cn/
+            .. _DenathN的GitHub主页:  https://github.com/DenathN
+
+内联标记需要注意的地方：
+    当想要表达的符号即是内联标记的时候，为了防止混淆，可以使用转义符号：转义符号：反斜杠      this is \ **one**\  word.
+    内联标记不能相互嵌套：**比如粗体中尝试嵌套*我想把这句话变成斜体*这样是不会嵌套斜体的**
+    内联标记和内联标记中的文本之间不能有空格间隔，``* 此处是文本*`` 这样是不行的，会显示为* 此处是文本*
+    当然，这些限制在未来版本可能会被改善
 
 
 
-- A bullet list item
-- Second item
 
-  - A sub item
 
-- Spacing between items creates separate lists
 
-- Third item
 
-1) An enumerated list item
 
-2) Second item
+块样式：
 
-   a) Sub item that goes on at length and thus needs
-      to be wrapped. Note the indentation that must
-      match the beginning of the text, not the 
-      enumerator.
+    段落：由空行分割
+         同python一样，用相同缩进的方式表示，同一个级别
+         同一段落的行是左对齐的
 
-      i) List items can even include
+    无序列表（Bullet list）：
+    （列表前后要空一行）
 
-         paragraph breaks.
+    - 第1条
+        - 第1条的第1条
+            - 第1条的第1条的第1条
+                - 第1条的第1条的第1条的第1条
+                    - 第1条的第1条的第1条的第1条的第1条
+    - 第2条
+    - 第3条
 
-3) Third item
+    有序列表（Enumerated list）：
+    （列表前后要空一行）
 
-#) Another enumerated list item
+    1. 第1条
+        1. 第1条的第1条
+            1. 第1条的第1条的第1条
+                1. 第1条的第1条的第1条的第1条
+                    1. 第1条的第1条的第1条的第1条的第1条
+    2. 第2条 
+    #. 第3条（用#替代数字，可自动编号）
 
-#) Second item
+
+
+
 
 
 
