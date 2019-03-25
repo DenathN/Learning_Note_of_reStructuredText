@@ -15,17 +15,29 @@ reStructuredText学习笔记
 那么五级标题呢
 ---------------
 
-斜体:
+行内样式（行内元素、内联元素、inline）
+    斜体:*这里是斜体* 
+    双星号: **这里是加粗** 重点强调 (加粗)
+    反引号: ``这里是行内引用、行内代码块``
+    反转义符：\          this is \ **one**\  word.
+    链接：
 
-*这里是斜体* 
+        独立链接：
+            自动将网址转换为链接
+            例如：
+            http://www.ubuntu.org.cn/
+            会自动将url文本转换为带有下划线的网页链接
 
-双星号: **text** 重点强调 (加粗)
+        命名链接：
+            Ubuntu_
 
-反引号: ``text`` 代码样式
+            .. _Ubuntu:  http://www.ubuntu.org.cn/
 
-反转义符：\
+        如果想在命名链接后面继续写文本，可以加个转义符，然后接文本
 
-this is \ **one**\  word.
+            Ubuntu_\奥术大师多
+
+            .. _Ubuntu:  http://www.ubuntu.org.cn/
 
 
 
@@ -94,7 +106,7 @@ This may also be used inline at the end of a paragraph, like so::
 
    print("A literal block directive explicitly marked as python code")
 
-
+**比如粗体中尝试嵌套*我想把这句话变成斜体*这样是不会嵌套斜体的**
 
 
 琵琶行
