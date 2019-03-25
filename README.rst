@@ -44,7 +44,7 @@ reStructuredText学习笔记
             .. _DenathN的GitHub主页:  https://github.com/DenathN
 
         指定链接
-            可以点击后面的链接跳转到我的页面`DenathN`_和官方`GitHub`_
+            可以点击后面的链接跳转到我的页面`DenathN`_ 和官方`GitHub`_
 
         .. _DenathN: https://github.com/DenathN
         .. _GitHub: https://github.com
