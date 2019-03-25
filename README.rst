@@ -37,17 +37,24 @@ reStructuredText学习笔记
 
             .. _DenathN的GitHub主页:https://github.com/DenathN
 
-        如果想在命名链接后面继续写文本，可以加个转义符，然后接文本
+            如果想在命名链接后面继续写文本，可以加个转义符，然后接文本
             例如：
             DenathN的GitHub主页_\此处为继续写的文本
 
-            .. _DenathN的GitHub主页:  https://github.com/DenathN
+            .. _DenathN的GitHub主页:https://github.com/DenathN
 
         指定链接
-            可以点击后面的链接跳转到我的页面`DenathN`_ 和官方`GitHub`_
+            A sentence with links to `Wikipedia`_ and the `Linux kernel archive`_.
 
-        .. _DenathN: https://github.com/DenathN
-        .. _GitHub: https://github.com
+            .. _Wikipedia: https://www.wikipedia.org/
+            .. _Linux kernel archive: https://www.kernel.org/
+
+        匿名链接
+            Another sentence with an `anonymous link to the Python website`__.
+
+            __ https://www.python.org/
+
+        N.B.: 指定链接和匿名链接用重字符(`)括起来，而不是用引号(')括起来。
 
 内联标记需要注意的地方：
     当想要表达的符号即是内联标记的时候，为了防止混淆，可以使用转义符号：转义符号：反斜杠      this is \ **one**\  word.
