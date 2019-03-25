@@ -44,10 +44,10 @@ reStructuredText学习笔记
             .. _DenathN的GitHub主页:  https://github.com/DenathN
 
         指定链接
-            可以点击后面的链接跳转到我的页面`DenathN的GitHub主页`_和官方`GitHub主页`_
-            
-        .. _DenathN的GitHub主页: https://github.com/DenathN
-        .. _GitHub主页: https://github.com
+            可以点击后面的链接跳转到我的页面`DenathN`_和官方`GitHub`_
+
+        .. _DenathN: https://github.com/DenathN
+        .. _GitHub: https://github.com
 
 内联标记需要注意的地方：
     当想要表达的符号即是内联标记的时候，为了防止混淆，可以使用转义符号：转义符号：反斜杠      this is \ **one**\  word.
